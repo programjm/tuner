@@ -1,0 +1,21 @@
+$default-button-border-radius: .28571429rem
+
+div.buttonGrid
+  > div
+    display: flex
+    margin: 0
+    > button.ui.button
+      border-radius: 0
+      margin: 0
+      flex: 1 0 0
+      text-align: center
+  > div:first-child
+    > button:first-child
+      border-top-left-radius: $default-button-border-radius
+    > button:last-child
+      border-top-right-radius: $default-button-border-radius
+  > div:last-child
+    > button:first-child
+      border-bottom-left-radius: $default-button-border-radius
+    > button:last-child
+      border-bottom-right-radius: $default-button-border-radius

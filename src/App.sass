@@ -1,0 +1,30 @@
+$default-button-border-radius: .28571429rem
+
+.forceInputAttachTop > input
+  border-bottom-left-radius: 0 !important
+  border-bottom-right-radius: 0 !important
+
+
+.widget
+  max-width: 400px
+
+
+div.ui.buttons.buttonGrid.roundTop
+  div
+    display: flex
+    flex: 1 0 auto
+  div > button.noround
+    border-radius: 0
+  div:first-child > button:first-child
+    border-top-left-radius: $default-button-border-radius
+  div:last-child > button:first-child
+    border-top-right-radius: $default-button-border-radius
+
+.equalSizeButtons
+  display: flex
+  margin: 0 !important
+  button
+    display: flex
+    flex: 1 0 0
+    margin: 0 !important
+    color: yellow
