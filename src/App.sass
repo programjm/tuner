@@ -1,8 +1,13 @@
 $default-button-border-radius: .28571429rem
 
-.forceInputAttachTop > input
+// specificity required, unfortunately
+#root > div > div > div > form > div:nth-child(1) > div > input.pitch-center
+  // !important required, unfortunately
   border-bottom-left-radius: 0 !important
   border-bottom-right-radius: 0 !important
+  padding-left: 10px !important
+  padding-right: 0px !important
+  text-align: center !important
 
 
 .widget

@@ -1,6 +1,9 @@
-.forceInputAttachTop > input {
+#root > div > div > div > form > div:nth-child(1) > div > input.pitch-center {
   border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important; }
+  border-bottom-right-radius: 0 !important;
+  padding-left: 10px !important;
+  padding-right: 0px !important;
+  text-align: center !important; }
 
 .widget {
   max-width: 400px; }

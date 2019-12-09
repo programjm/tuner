@@ -244,7 +244,7 @@ class Tuner extends Component
                         <Input fluid type='number' placeholder='Hz' action size="huge" value={this.state.pitchCenter} onChange={this.handleFrequencyInputChange}
                         label="Hz" labelPosition="left corner">
 
-                            <input />
+                            <input className="pitch-center"/>
                             <Button type='submit' onClick={() => this.deltaFrequency(-10)}>-10</Button>
                             <Button type='submit' onClick={() => this.deltaFrequency(-1)}>-1</Button>
                             <Button type='submit' onClick={() => this.deltaFrequency(1)}>+1</Button>
