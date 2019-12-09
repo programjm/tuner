@@ -10,12 +10,9 @@ class App extends Component {
       return <div className="App">
 
           <Grid columns='equal' padded doubling stackable fluid centered >
-              <Grid.Column>
-                  <Tuner/>
-              </Grid.Column>
-              <Grid.Column>
-                  <Metronome/>
-              </Grid.Column>
+
+              <Tuner/>
+
           </Grid>
 
 
